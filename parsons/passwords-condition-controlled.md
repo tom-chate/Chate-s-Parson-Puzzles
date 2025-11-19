@@ -2,6 +2,17 @@
 layout: default
 title: "Password Checker: Conditional Controlled"
 ---
+<p class="task-description">
+An algorithm is used to ensure a password is at least 7 characters in length. The user is repeatedly asked to enter a password until it is longer than 7 characters.​
+
+A counter is used to count how many attempts it took to create a "strong" password. The counter and allowed password is outputted.
+
+Drag or shuffle the blocks of code in the practice problems below.
+Remember to indent where appropriate by dragging blocks to the right.
+To check your work, press the "Get Feedback" button.
+To start over, press the "Reset Problem" button.
+</p> 
+
 
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
@@ -11,11 +22,7 @@ title: "Password Checker: Conditional Controlled"
     <input id="feedbackLink" value="Get Feedback" type="button" /> 
     <input id="newInstanceLink" value="Reset Problem" type="button" /> 
 </p> 
-<p class="task-description">
-An algorithm is used to ensure a password is at least 7 characters in length. The user is repeatedly asked to enter a password until it is longer than 7 characters.​
 
-A counter is used to count how many attempts it took to create a "strong" password. The counter and allowed password is outputted
-</p> 
 <script type="text/javascript">
 var initial = "length = 0\n" +
     "count = 0\n" +
