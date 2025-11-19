@@ -3,9 +3,9 @@ layout: default
 title: "Password Checker: Conditional Controlled"
 ---
 <p class="task-description">
-An algorithm is used to ensure a password is at least 7 characters in length. The user is repeatedly asked to enter a password until it is longer than 7 characters.​
-
-A counter is used to count how many attempts it took to create a "strong" password. The counter and allowed password is outputted.
+ Ask the user to input how many GCSE’s they have. They should then be allowed to enter a result for each GCSE grade.  The computer should work out how many
+points they have got (9=9, 8=8, 7=7 etc). If their total score is 40 or over it should output ‘You can go to the sixth form’. If they their score between 35 and 39 it should
+output ‘A discussion is needed.  Otherwise, it should say ‘Sorry not enough points.’
 
 Drag or shuffle the blocks of code in the practice problems below.
 Remember to indent where appropriate by dragging blocks to the right.
