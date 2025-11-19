@@ -9,15 +9,13 @@ title: "Password Checker: Conditional Controlled"
  If their total score is 40 or over it should output ‘You can go to the sixth form’.  
  If their score between 35 and 39 it should output ‘A discussion is needed.’  
  Otherwise, it should say ‘Sorry not enough points.’
-</p>
-
-<p>
-Drag or shuffle the blocks of code in the practice problems below.<br>
-Remember to indent where appropriate by dragging blocks to the right.<br>
-To check your work, press the "Get Feedback" button.<br>
+</p> 
+<p class="task-instructions">
+Drag or shuffle the blocks of code in the practice problems below.
+Remember to indent where appropriate by dragging blocks to the right.
+To check your work, press the "Get Feedback" button.
 To start over, press the "Reset Problem" button.
-</p>
-
+</p> 
 <div id="sortableTrash" class="sortable-code"></div>
 <div id="sortable" class="sortable-code"></div>
 <div style="clear:both;"></div>
