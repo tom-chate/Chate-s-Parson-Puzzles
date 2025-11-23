@@ -8,6 +8,7 @@ title: Home Page
 <ul>
   <li><a href="./parsons/passwords-condition-controlled.html">Passwords Condition Controlled</a></li>
   <li><a href="./parsons/GCSE-total-grade-calc.html">GCSE Total Grade Calculator</a></li>
-  <li><a href="page3.html">Page 3</a></li>
+  <li><a href="./parsons/petrol-station-easy.html">Petrol Station Easy</a></li>
+  <li><a href="./parsons/number-guessing-challenge.html">Number Guessing Challenge</a></li>
   <li><a href="contact.html">Contact Us</a></li>
 </ul>
