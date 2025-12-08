@@ -5,6 +5,8 @@
   data-font="default"
 >
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     {%- include parsons-scripts.html -%}
 
     {% if site.google_analytics %}
@@ -57,7 +59,7 @@
         <a class="navbar-brand fw-bold d-flex align-items-center gap-2"
            href="{{ '/' | relative_url }}">
           <i class="bi bi-house-fill"></i>
-          Ed-Chate
+          Edu-Chate
         </a>
 
         <button class="navbar-toggler" type="button"
@@ -72,7 +74,8 @@
         <div class="collapse navbar-collapse" id="mainNavbar">
           <!-- Left side: Parson Puzzles -->
   <!-- Left side: Parson Puzzles with category submenus -->
-<ul class="navbar-nav ms-3 me-auto">
+   <ul class="navbar-nav ms-3 me-auto">
+  <!-- Parson Puzzles dropdown (existing) -->
   <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle"
        href="#"
@@ -105,7 +108,52 @@
       {% endfor %}
     </ul>
   </li>
+
+  <!-- NEW: Computer Science J277 dropdown -->
+  <li class="nav-item dropdown ms-2">
+    <a class="nav-link dropdown-toggle"
+       href="#"
+       id="csDropdown"
+       role="button"
+       data-bs-toggle="dropdown"
+       aria-expanded="false">
+      <i class="bi bi-pc-display"></i> Computer Science J277
+    </a>
+
+    <ul class="dropdown-menu" aria-labelledby="csDropdown">
+      <!-- Paper 1 -->
+      <li class="dropdown-submenu dropend">
+        <a class="dropdown-item dropdown-toggle" href="#">
+          Paper 1
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item{% if page.url == '/computer-science-j277/paper-1/cpu-architecture/' %} active{% endif %}"
+               href="{{ '/computer-science-j277/paper-1/cpu-architecture/' | relative_url }}">
+              CPU Architecture
+            </a>
+          </li>
+        </ul>
+      </li>
+
+      <!-- Paper 2 -->
+      <li class="dropdown-submenu dropend">
+        <a class="dropdown-item dropdown-toggle" href="#">
+          Paper 2
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item{% if page.url == '/computer-science-j277/paper-2/sorts-searches/' %} active{% endif %}"
+               href="{{ '/computer-science-j277/paper-2/sorts-searches/' | relative_url }}">
+              Sorts &amp; Searches
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ul>
+
 
 
 
@@ -125,7 +173,7 @@
     <!-- Footer -->
     <footer class="mt-auto py-3 bg-dark text-light">
       <div class="container d-flex flex-wrap align-items-center justify-content-between gap-2">
-        <small>© {{ site.time | date: "%Y" }} Ed-Chate</small>
+        <small>© {{ site.time | date: "%Y" }} Edu-Chate</small>
 
         <div class="d-flex align-items-center gap-3 footer-actions">
           <!-- YouTube link -->

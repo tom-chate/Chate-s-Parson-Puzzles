@@ -212,3 +212,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5em;
   line-height: 1.2;
 }
+
+/* Make Parsons columns use full width on phones */
+@media (max-width: 576px) {
+  .sortable-code {
+    width: 100% !important;      /* ignore fixed width from parsons.css */
+    max-width: 100% !important;
+    float: none !important;      /* stack instead of side-by-side */
+    margin: 0 0 1rem 0 !important;
+    box-sizing: border-box;
+  }
+}
+
