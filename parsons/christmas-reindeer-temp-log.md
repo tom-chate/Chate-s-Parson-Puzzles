@@ -24,19 +24,18 @@ To start over, press the "Reset Problem" button.
   <input id="feedbackLink" value="Get Feedback" type="button" />
   <input id="newInstanceLink" value="Reset Problem" type="button" />
 </p>
-
 <script type="text/javascript">
 (function(){
-var initial =
-"file = open('temp_log.txt', 'w')\\n" +
-"for i in range(5):\\n" +
-"    temp = int(input('Enter temperature: '))\\n" +
-"    if temp <= -10:\\n" +
-"        status = 'Too cold'\\n" +
-"    else:\\n" +
-"        status = 'Safe'\\n" +
-"    print(temp, 'is', status)\\n" +
-"    file.write(str(temp) + ',' + status + \"\\\\n\")\\n" +
+  var initial =
+"file = open('temp_log.txt', 'w')\n" +
+"for i in range(5):\n" +
+"    temp = int(input('Enter temperature: '))\n" +
+"    if temp <= -10:\n" +
+"        status = 'Too cold'\n" +
+"    else:\n" +
+"        status = 'Safe'\n" +
+"    print(temp, 'is', status)\n" +
+"    file.write(str(temp) + ',' + status + \"\\n\")\n" +
 "file.close()";
 
   var parsonsPuzzle = new ParsonsWidget({
@@ -59,7 +58,7 @@ var initial =
 
   $("#feedbackLink").click(function(event){
       event.preventDefault();
-      parsonsPuzzle.getFeedback();
+      parsonsPuzzle.getFeedback(); // visual feedback only
   });
 })();
 </script>
